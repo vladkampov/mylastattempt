@@ -1,0 +1,23 @@
+@import '../variables.scss';
+
+header {
+  height: 100vh;
+  text-align: center;
+  .main-logo {
+    @include absolute-center;
+
+    background-image: url('/img/logo.png');
+    background-size: 100%;
+    width: 230px;
+    height: 300px;
+  }
+  .arrow-down {
+    @include absolute-center;
+
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    top: initial;
+    bottom: 30px;
+  }
+}

@@ -1,0 +1,22 @@
+@import './variables.scss';
+@import './header/header.scss';
+@import './social/social.scss';
+@import './tour/tour.scss';
+@import './songs/songs.scss';
+@import './video/video.scss';
+@import './contacts/contacts.scss';
+@import './footer/footer.scss';
+
+a {
+  @include transition;
+  text-decoration: none;
+  color: $linkColor;
+
+  &:hover {
+    color: $linkHoverColor;
+  }
+}
+.title {
+  text-transform: uppercase;
+  margin: 50px 0;
+}

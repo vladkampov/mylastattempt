@@ -1,0 +1,30 @@
+@import '../variables.scss';
+
+.social-buttons {
+  opacity: 0.8;
+  margin-top: 1.5em;
+  font-size: 1.8em;
+  ul {
+    padding: 0;
+    a:hover {
+      &.vk {
+        color: $vk;
+      }
+      &.fb {
+        color: $facebook;
+      }
+      &.insta {
+        color: $instagram;
+      }
+      &.twi {
+        color: $twitter;
+      }
+      &.youtube {
+        color: $youtube;
+      }
+      &.soundcloud {
+        color: $soundcloud;
+      }
+    }
+  }
+}

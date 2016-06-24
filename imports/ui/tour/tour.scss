@@ -1,0 +1,11 @@
+@import '../variables.scss';
+
+.tour {
+  background-color: $tourBg;
+  color: $tourText;
+  text-align: center;
+
+  .songkick-widget {
+    text-transform: uppercase;
+  }
+}

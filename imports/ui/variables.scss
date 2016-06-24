@@ -1,0 +1,35 @@
+$linkColor: #444444;
+$linkHoverColor: #868686;
+$tourBg: #222222;
+$tourText: #f5f5f5;
+$videoBg: #25373e;
+$videoText: #f5f5f5;
+$footerBg: #f7f7f7;
+
+// SOCIAL COLORS
+$twitter: #00aced;
+$facebook: #3b5998;
+$youtube: #bb0000;
+$vimeo: #aad450;
+$tumblr: #32506d;
+$instagram: #517fa4;
+$flickr: #ff0084;
+$foursquare: #0072b1;
+$vk: #45668e;
+$soundcloud: #ff3a00;
+
+@mixin absolute-center {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@mixin transition {
+  -webkit-transition-duration: .3s;
+  -o-transition-duration: .3s;
+  -moz-transition-duration: .3s;
+  transition-duration: .3s;
+}
