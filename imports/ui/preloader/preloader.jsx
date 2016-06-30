@@ -2,6 +2,7 @@ import './preloader.html'
 
 $(()=> {
   $(window).load(()=> {
-    $("#loading").fadeOut(500);
+  	$('html, body').removeAttr('style')
+    $("#loading").fadeOut(500)
   })
 })

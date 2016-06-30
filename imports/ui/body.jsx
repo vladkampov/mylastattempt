@@ -10,3 +10,8 @@ import './contacts/contacts.html'
 import './footer/footer.html'
 import './analytics/analytics.html'
 import './preloader/preloader.jsx'
+
+$('html, body').css({
+	'overflow': 'hidden', 
+	'height': '100%' 
+})
