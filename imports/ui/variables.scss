@@ -18,6 +18,17 @@ $foursquare: #0072b1;
 $vk: #45668e;
 $soundcloud: #ff3a00;
 
+// PRLOADER
+$preloaderBg: #ffffff;
+$roundColor1-1: #555555;
+$roundColor1-2: #222222;
+$roundColor2-1: #E7E7E7;
+$roundColor2-2: #E7E7E7;
+$roundColor3-1: $videoBg;
+$roundColor3-2: #00AB6F;
+$roundColor4-1: #444444;
+$roundColor4-2: #444444;
+
 @mixin absolute-center {
   position: absolute;
   margin: auto;
