@@ -12,6 +12,6 @@ import './analytics/analytics.html'
 import './preloader/preloader.jsx'
 
 $('html, body').css({
-	'overflow': 'hidden', 
-	'height': '100%' 
+  'overflow': 'hidden', 
+  'height': '100%' 
 })
