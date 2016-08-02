@@ -25,8 +25,7 @@ a {
 body {
   background-size: 100%;
   background-attachment: fixed;
-  @media only screen and (max-width: 768px) {
-    background-size: auto 100%;
-    background-position: center;
+  @media only screen and (max-width: 425px) {
+    background: #ffffff !important;
   }
 }
