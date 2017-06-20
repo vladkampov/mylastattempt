@@ -6,10 +6,10 @@ $(()=> {
     $("#loading").fadeOut(500);
 
     random = parseInt(Math.random() * 10);
-    if(random > 5) {
+    if(random > 6) {
       random = 1;
     }
-    console.log(random);
+
     $('body').css({
       'background-image': 'url(/img/bg/' + random + '.jpg)'
     });
