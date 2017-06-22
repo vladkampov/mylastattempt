@@ -1,23 +1,46 @@
 <template name="header">
   <header>
     {{> social}}
-    <div class="row">
+<!--     <div class="row">
       <div class="col-md-4">
         <div class="main-logo"></div>
       </div>
-      <div class="col-md-8">
-        <div class="black">
-          <div class="album"></div>
-          <h2>Alaible now</h2>
-          <ul>
-            <li>iTunes / Apple Music</li>
-            <li>Google Play</li>
-            <li>Spotify</li>
-            <li><small>#MLAcapillaries</small></li>
-          </ul>
-        </div>
-      </div>
+      <div class="col-md-8"> -->
+          
+<!--       </div>
     </div>
-    <p class="h2 arrow-down"><a href="#tour"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a></p>
+    <p class="h2 arrow-down"><a href="#tour"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a></p> -->
+
+    <div class="container">
+      <h1 class="title">new single out now</h1>
+      <p>
+        <img class="image-responsive album" src="/img/album.jpg" alt="" width="300"/>
+      </p>
+      <ul class="list-inline">
+        <li><a href="" class="download apple"></a></li>
+        <li><a href="" class="download google"></a></li>
+        <li><a href="" class="download spotify"></a></li>
+      </ul>
+
+      <p><small>or in your favorite service whatever it is</small></p>
+      <p><br/></p>
+    </div>
   </header>
+  <script>        
+  var mySwiper = new Swiper ('.swiper-container', {
+    // Optional parameters
+    direction: 'vertical',
+    loop: true,
+    
+    // If we need pagination
+    pagination: '.swiper-pagination',
+    
+    // Navigation arrows
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    
+    // And if we need scrollbar
+    scrollbar: '.swiper-scrollbar',
+  })        
+  </script>
 </template>

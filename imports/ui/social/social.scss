@@ -8,9 +8,9 @@
   position: relative;
   color: white;
   font-size: 1.2em;
-  -webkit-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.55);
-  -moz-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.55);
-  box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.55);
+  // -webkit-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.55);
+  // -moz-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.55);
+  // box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.55);
   cursor: pointer;
   ul {
     padding: 0;
@@ -21,8 +21,10 @@
       text-decoration: none;
       padding: 0.6em;
       cursor: pointer;
+      text-transform: uppercase;
+      font-weight: 400;
     }
-    a:hover {
+    a:not(.logo):hover {
       background: white;
       color: #222222;
       &.vk {
@@ -43,6 +45,11 @@
       &.soundcloud {
         color: $soundcloud;
       }
+    }
+  }
+  .list-inline {
+    @media only screen and (max-width: 768px) {
+      text-align: center;
     }
   }
 }

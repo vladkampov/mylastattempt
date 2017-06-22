@@ -1,7 +1,7 @@
 @import '../variables.scss';
 
 header {
-  height: 100vh;
+  // height: 100vh;
   text-align: center;
   background-color: rgba(255,255,255, 0.7);
   overflow: hidden;
@@ -40,7 +40,6 @@ header {
   }
 
   .black {
-    background-color: #333333;
     height: 100%;
 
     .album {
@@ -48,8 +47,44 @@ header {
       display: inline-block;
       background-image: url('/img/album.jpg');
       background-size: 100%;
-      width: 370px;
+      width: 45%;
       height: 370px;
     }
+  }
+  .title {
+    margin-bottom: 25px;
+  }
+  .album {
+    margin: 10px 0 25px;
+  }
+
+  small {
+    color: #b7b7b7;
+    font-size: 65%;
+    margin-bottom: 50px;
+  }
+}
+
+.download {
+  background-size: 100%;
+  width: 150px;
+  height: 50px;
+  display: inline-block;
+  background-repeat: no-repeat;
+
+  &.google {
+    background-image: url(https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png);
+  }
+
+  &.apple {
+    background-image: url("https://images.apple.com/itunes/marketing-on-music/images/badge_artwork_2_option_large_2x.jpg");
+    width: 240px;
+    background-position-y: 8px;
+  }
+
+  &.spotify {
+    background-image: url('/img/spot.png');
+    width: 112px;
+    background-position-y: 9px;
   }
 }
