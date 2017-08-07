@@ -5,6 +5,30 @@ header {
   text-align: center;
   background-color: rgba(255,255,255, 0.7);
   overflow: hidden;
+
+  .vote {
+    background: #8ab51d;
+    color: #fff;
+
+    h2 {
+      font-size: 18px;
+      margin-bottom: 20px;
+
+      img {
+        margin: 0 20px;
+      }
+
+      a {
+        color: #fff;
+        text-decoration: underline;
+
+        &:hover {
+          color: #981d1d;
+        }
+      }
+    }
+  }
+
   .main-logo {
     @include absolute-center;
     top: -45px;
