@@ -45,11 +45,27 @@
       &.soundcloud {
         color: $soundcloud;
       }
+      &.telegram {
+        color: #0088cc;
+      }
     }
   }
   .list-inline {
     @media only screen and (max-width: 768px) {
       text-align: center;
     }
+  }
+}
+
+.telegram-channel {
+  float: right;
+  padding: 5px 15px 0 10px;
+  background-color: #517fa4;
+  small {
+    color: #cacaca;
+  }
+  a {
+    color: #ffffff;
+    text-decoration: underline
   }
 }
